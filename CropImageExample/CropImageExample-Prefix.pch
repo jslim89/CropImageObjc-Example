@@ -1,0 +1,9 @@
+//
+//  CropImageExample-Prefix.pch
+//  CropImageExample
+//
+//  Created by Js on 12/8/14.
+//
+//
+
+#define kCropFrame CGRectMake(45, 80, 95, 62)

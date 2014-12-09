@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2EC7AC1A366AFA00D3ECEF /* sungoku.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2EC7AA1A366AFA00D3ECEF /* sungoku.png */; };
+		4B2EC7AD1A366AFA00D3ECEF /* sungoku@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2EC7AB1A366AFA00D3ECEF /* sungoku@2x.png */; };
 		4B43EE1E1A35F9F500369BE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B43EE1D1A35F9F500369BE1 /* main.m */; };
 		4B43EE211A35F9F500369BE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B43EE201A35F9F500369BE1 /* AppDelegate.m */; };
 		4B43EE241A35F9F500369BE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B43EE231A35F9F500369BE1 /* ViewController.m */; };
-		4B43EE271A35F9F500369BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B43EE251A35F9F500369BE1 /* Main.storyboard */; };
 		4B43EE291A35F9F500369BE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B43EE281A35F9F500369BE1 /* Images.xcassets */; };
-		4B43EE2C1A35F9F500369BE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B43EE2A1A35F9F500369BE1 /* LaunchScreen.xib */; };
 		4B43EE381A35F9F500369BE1 /* CropImageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B43EE371A35F9F500369BE1 /* CropImageExampleTests.m */; };
+		4B7E71991A35FF46008140F7 /* CropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E71981A35FF46008140F7 /* CropViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B2EC7AA1A366AFA00D3ECEF /* sungoku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sungoku.png; sourceTree = "<group>"; };
+		4B2EC7AB1A366AFA00D3ECEF /* sungoku@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sungoku@2x.png"; sourceTree = "<group>"; };
 		4B43EE181A35F9F500369BE1 /* CropImageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropImageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B43EE1C1A35F9F500369BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B43EE1D1A35F9F500369BE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +37,13 @@
 		4B43EE201A35F9F500369BE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4B43EE221A35F9F500369BE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4B43EE231A35F9F500369BE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4B43EE261A35F9F500369BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B43EE281A35F9F500369BE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4B43EE2B1A35F9F500369BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4B43EE311A35F9F500369BE1 /* CropImageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropImageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B43EE361A35F9F500369BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B43EE371A35F9F500369BE1 /* CropImageExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CropImageExampleTests.m; sourceTree = "<group>"; };
+		4B7E71971A35FF46008140F7 /* CropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropViewController.h; sourceTree = "<group>"; };
+		4B7E71981A35FF46008140F7 /* CropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropViewController.m; sourceTree = "<group>"; };
+		4B7E719A1A3600ED008140F7 /* CropImageExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CropImageExample-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B2EC7A91A366AFA00D3ECEF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4B2EC7AA1A366AFA00D3ECEF /* sungoku.png */,
+				4B2EC7AB1A366AFA00D3ECEF /* sungoku@2x.png */,
+			);
+			name = Images;
+			path = CropImageExample/Images;
+			sourceTree = "<group>";
+		};
 		4B43EE0F1A35F9F500369BE1 = {
 			isa = PBXGroup;
 			children = (
 				4B43EE1A1A35F9F500369BE1 /* CropImageExample */,
 				4B43EE341A35F9F500369BE1 /* CropImageExampleTests */,
 				4B43EE191A35F9F500369BE1 /* Products */,
+				4B2EC7A91A366AFA00D3ECEF /* Images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +100,9 @@
 				4B43EE201A35F9F500369BE1 /* AppDelegate.m */,
 				4B43EE221A35F9F500369BE1 /* ViewController.h */,
 				4B43EE231A35F9F500369BE1 /* ViewController.m */,
-				4B43EE251A35F9F500369BE1 /* Main.storyboard */,
+				4B7E71971A35FF46008140F7 /* CropViewController.h */,
+				4B7E71981A35FF46008140F7 /* CropViewController.m */,
 				4B43EE281A35F9F500369BE1 /* Images.xcassets */,
-				4B43EE2A1A35F9F500369BE1 /* LaunchScreen.xib */,
 				4B43EE1B1A35F9F500369BE1 /* Supporting Files */,
 			);
 			path = CropImageExample;
@@ -98,6 +113,7 @@
 			children = (
 				4B43EE1C1A35F9F500369BE1 /* Info.plist */,
 				4B43EE1D1A35F9F500369BE1 /* main.m */,
+				4B7E719A1A3600ED008140F7 /* CropImageExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -198,9 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B43EE271A35F9F500369BE1 /* Main.storyboard in Resources */,
-				4B43EE2C1A35F9F500369BE1 /* LaunchScreen.xib in Resources */,
+				4B2EC7AC1A366AFA00D3ECEF /* sungoku.png in Resources */,
 				4B43EE291A35F9F500369BE1 /* Images.xcassets in Resources */,
+				4B2EC7AD1A366AFA00D3ECEF /* sungoku@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +236,7 @@
 			files = (
 				4B43EE241A35F9F500369BE1 /* ViewController.m in Sources */,
 				4B43EE211A35F9F500369BE1 /* AppDelegate.m in Sources */,
+				4B7E71991A35FF46008140F7 /* CropViewController.m in Sources */,
 				4B43EE1E1A35F9F500369BE1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,25 +258,6 @@
 			targetProxy = 4B43EE321A35F9F500369BE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4B43EE251A35F9F500369BE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B43EE261A35F9F500369BE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4B43EE2A1A35F9F500369BE1 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B43EE2B1A35F9F500369BE1 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4B43EE391A35F9F500369BE1 /* Debug */ = {
@@ -296,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -331,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -342,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "CropImageExample/CropImageExample-Prefix.pch";
 				INFOPLIST_FILE = CropImageExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,7 +352,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "CropImageExample/CropImageExample-Prefix.pch";
 				INFOPLIST_FILE = CropImageExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +413,7 @@
 				4B43EE3D1A35F9F500369BE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B43EE3E1A35F9F500369BE1 /* Build configuration list for PBXNativeTarget "CropImageExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				4B43EE401A35F9F500369BE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
